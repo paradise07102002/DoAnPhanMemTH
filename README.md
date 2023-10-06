@@ -1,4 +1,4 @@
-# Đề tài: APpp Quản lý thư viện
+# Đề tài: App Quản lý thư viện
 # Mô tả sơ lược
 Ứng dụng Quản lý Thư viện là một ứng dụng được phát triển trên nền tảng Android Studio, nhằm mục đích giúp người dùng quản lý và sắp xếp sách trong thư viện cá nhân một cách dễ dàng. Với ứng dụng này, người dùng có thể tìm kiếm, xem thông tin chi tiết về sách và thực hiện các tác vụ như mượn và trả sách.
 
