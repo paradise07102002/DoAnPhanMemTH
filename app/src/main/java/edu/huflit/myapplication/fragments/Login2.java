@@ -61,8 +61,10 @@ public class Login2 extends Fragment {
         next_dang_ky.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                manHinhChinh.gotoDangKy();
             }
+
+
         });
         return view;
     }
