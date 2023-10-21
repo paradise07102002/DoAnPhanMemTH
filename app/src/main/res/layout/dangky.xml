@@ -17,27 +17,53 @@
 
         <ImageView
             android:id="@+id/dang_ky_back"
-
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
             android:layout_width="48dp"
             android:layout_height="32dp"
-            android:src="@drawable/icon_back1" />
+            app:srcCompat="@drawable/icon_back1" />
         <EditText
             android:id="@+id/dk_username"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="15dp"
+            android:hint="Username"
             android:textSize="16dp"
             android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            android:drawableStart="@drawable/icon_user"
+            android:paddingStart="10dp"
+            android:drawablePadding="10dp"
+            android:background="@drawable/edit_edittext2"
             android:layout_width="315dp"
             android:layout_height="40dp"/>
         <EditText
             android:id="@+id/dk_password"
             android:inputType="textPassword"
-
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:hint="Password"
             android:textSize="16dp"
             android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            android:drawableStart="@drawable/icon_password"
+            android:paddingStart="10dp"
+            android:drawablePadding="10dp"
+            android:background="@drawable/edit_edittext2"
             android:layout_width="315dp"
             android:layout_height="40dp"/>
         <EditText
             android:id="@+id/dk_re_password"
             android:inputType="textPassword"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:hint="Re-password"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            android:drawableStart="@drawable/icon_password"
+            android:paddingStart="10dp"
+            android:drawablePadding="10dp"
+            android:background="@drawable/edit_edittext2"
             android:layout_width="315dp"
             android:layout_height="40dp"/>
         <LinearLayout
@@ -57,15 +83,31 @@
         <EditText
             android:id="@+id/dk_fullname"
             android:inputType="text"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:hint="Fullname"
             android:textSize="16dp"
             android:textColor="@color/black"
-
+            android:paddingLeft="10dp"
+            android:drawableStart="@drawable/icon_card"
+            android:paddingStart="10dp"
+            android:drawablePadding="10dp"
+            android:background="@drawable/edit_edittext2"
             android:layout_width="315dp"
             android:layout_height="40dp"/>
         <EditText
             android:id="@+id/dk_email"
             android:inputType="textEmailAddress"
-
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:hint="Email"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            android:drawableStart="@drawable/icom_email"
+            android:paddingStart="10dp"
+            android:drawablePadding="10dp"
+            android:background="@drawable/edit_edittext2"
             android:layout_width="315dp"
             android:layout_height="40dp"/>
 
@@ -73,16 +115,24 @@
             android:id="@+id/dk_phone"
             android:layout_width="315dp"
             android:layout_height="40dp"
-
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/edit_edittext2"
+            android:drawableStart="@drawable/icon_phone"
+            android:drawablePadding="10dp"
+            android:hint="Phone"
             android:inputType="number"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/black"
             android:textSize="16dp" />
 
         <Button
             android:id="@+id/dk_btn"
-            android:layout_width="315dp"
-            android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
             android:text="Đăng ký"
             app:cornerRadius="7dp" />
 
